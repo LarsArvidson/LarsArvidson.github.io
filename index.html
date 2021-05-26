@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>home</title>
 </head>
 
 <body>
 
 
-    <div class="container pt-lg-4" id='mainContent' style='position:relative; top:20px;'>
+    <div class="container" id='mainContent'>
         <div id='formWrapper'>
             <h1>Split View Tool</h1>
             <div id='instructions'>
@@ -21,9 +21,10 @@
                 and use that as the URL for your test. (Some websites won't work with this tool as they block being
                 displayed within a frame.)
             </div>
-            <form>
-                <p><label>URL1:</label><input type='text' id='url1' /></p>
-                <p><label>URL2:</label><input type='text' id='url2' /></p>
+            <form id="urlInput">
+                <p><label>Controller: </label><input type='text' id='url1'/></p>
+                <p><label>Vmix call: </label><input type='text' id='url2'/></p>
+                
 
 
                 <input id='submitbtn' type='button' value='View' />
