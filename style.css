@@ -63,11 +63,13 @@ html, body {
 
 
 
-@media (max-width: 3000px) {
+@media (min-width: 3000px) {
     #mydiv {
         transform: scale(1.3);
     }
 }
+
+
 
 
 
