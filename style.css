@@ -71,8 +71,6 @@ html, body {
 
 
 
-
-
 @media (max-width: 1920px) {
     #mydiv {
         transform: scale(0.6);
