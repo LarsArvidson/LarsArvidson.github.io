@@ -14,6 +14,6 @@ url2.src = paramUrl2;
 
 console.log(paramUrl1);
 
-if (paramUrl1 == null) {
+if (paramUrl1.length == 0) {
     document.getElementById("mydiv").style.display = 'none';
 }
