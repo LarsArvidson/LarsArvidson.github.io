@@ -12,5 +12,5 @@ url2.src = paramUrl2;
 
 
 if (paramUrl1 = null) {
-    document.getElementById("mydiv").style.display = "none";
+    document.getElementById("mydiv").style.display = 'none';
 }
