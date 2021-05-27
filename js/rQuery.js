@@ -9,3 +9,8 @@ url1.src = paramUrl1;
 
 let url2 = document.getElementById("url2");
 url2.src = paramUrl2;
+
+
+if (paramUrl1 = null) {
+    document.getElementById("mydiv").style.display = "none";
+}
