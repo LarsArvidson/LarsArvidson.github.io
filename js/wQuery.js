@@ -7,7 +7,7 @@ function generateUrl() {
 
     //var query = Math.random().toString().substr(2, 8);;
 
-    var url = window.location.href + "/innringer?url1=" + url1 + "&url2=" + url2;
+    var url = window.location.href + "/innringer.html?url1=" + url1 + "&url2=" + url2;
 
 console.log(url1);
 console.log(url2);
